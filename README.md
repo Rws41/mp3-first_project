@@ -1,5 +1,5 @@
 #MP3 Player Soundwave
-###Video Demo: 
+###Video Demo: https://youtu.be/WZXNlhJLIV0
 ###Description:
 
 I developed a mp3 player with a GUI using python and the Tkinter GUI library. The goal I had was to create somethign a little more complicated than just a play/stop button, so I wanted to included some more involved features. To that end I wanted to able to load up a music directory, browse the directory, choose any song out of the directory, and be able to play/pause/stop it. I also wanted to include an option for a user to generate playlists to be able to easily save songs and return to them at another time. I also wanted to include an option for the user to find and search for songs they may not have using some popular music providers.
