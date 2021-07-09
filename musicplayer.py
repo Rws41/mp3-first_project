@@ -17,7 +17,7 @@ class mainwindow(tk.Tk):
         super().__init__()
         ttk.Style().theme_use("clam")
 
-        self.cwd = os.getcwd()
+        
         self.lib_directory = ""
         self.paused = 0
         self.main_lib = ""
@@ -50,7 +50,7 @@ class mainwindow(tk.Tk):
         self.playbutton.bind("<Button-1>", self.play)
         self.playbutton.pack(expand=True)
 
-        self.pausebutton = tk.Button(self.left_frame, text="Pause", width= 20)
+        self.pausebutton = tk.Button(self.left_frame, text="Pause/Unpause", width= 20)
         self.pausebutton.bind("<Button-1>", self.pause)
         self.pausebutton.pack(expand=True)  
 
